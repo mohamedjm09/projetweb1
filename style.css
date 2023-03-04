@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: Georgia, sans-serif;
+  background-image: url("C:/Users/moham/OneDrive/Bureau/site/background.jpeg");
+}
+
+header {
+  background-color: #46341b;
+  color: rgb(128, 104, 5);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Logo styles */
+.logo {
+  display: block; /* Make the logo a block element */
+  width: 118px; /* Set the logo width */
+  height: 100px; /* Set the logo height */
+  border-radius: 50%; /* Make the logo circular */
+  object-fit: cover; /* Make the logo cover the container */
+}
+/* Logo container styles */
+.logo-container {
+  width: 100px; /* Set the container width to match the logo width */
+  height: 100px; /* Set the container height to match the logo height */
+  margin-left: 20px; /* Add margin to the left of the logo container */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: rgb(128, 104, 5);
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #46341b;
+}
+
+.product {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+  text-align: center;
+  margin: 50px;
+  width: 250px;
+}
+
+.product img {
+  height: 300px;
+  width: 250px;
+}
+
+button {
+  background-color: #333;
+  color: rgb(198, 133, 133);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-container input[type="text"] {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search-container button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #555;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .search-container input[type="text"] {
+    width: 70%;
+  }
+
+  .search-container button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+.show {
+  justify-content: space-between;
+  display: inline-block;
+}
+.btn {
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(90, 68, 8);
+}
+.about {
+  margin-left: 0cqmax; /* Positions the "About" item to the right */
+}
+.about-section {
+  max-width: 600px; /* Adjust to the desired width */
+  margin: 0 auto; /* Centers the section horizontally */
+}
+.contact {
+  margin: 0cqmax; /* Positions the "About" item to the right */
+}
+.contact-section {
+  max-width: 600px; /* Adjust to the desired width */
+  margin: 0 auto; /* Centers the section horizontally */
+}

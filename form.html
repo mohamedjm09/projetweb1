@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Your Order</title>
+    <script src="file.js"></script>
+  </head>
+  <body>
+    <script src="file.js"></script>
+
+    <form id="myForm" onsubmit="return validateForm()">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" />
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" />
+
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="text" id="phoneNumber" name="phoneNumber" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" />
+
+      <button type="submit">Commander</button>
+    </form>
+    <a href="site.html">
+      <img
+        src="C:/Users/moham/OneDrive/Bureau/site/LOGO.jpg"
+        alt="Logo"
+        class="logo"
+      />
+    </a>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0px;
+        font-family: Georgia, sans-serif;
+        background-image: url("C:/Users/moham/OneDrive/Bureau/site/background.jpeg");
+      }
+      form {
+        max-width: 600px;
+
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      input,
+      textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+      input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #0062cc;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: none;
+        border: 1px solid #007bff;
+      }
+
+      ::placeholder {
+        color: #999;
+      }
+      /* Submit button styles */
+      button[type="submit"] {
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #2980b9;
+      }
+      /* Logo styles */
+      .logo {
+        display: block; /* Make the logo a block element */
+        width: 900px; /* Set the logo width */
+        height: 400px; /* Set the logo height */
+        border-radius: 50%; /* Make the logo circular */
+        object-fit: cover; /* Make the logo cover the container */
+      }
+
+      /* Header styles */
+      .header {
+        display: flex; /* Use flexbox layout for the header */
+        justify-content: space-between; /* Align logo to the left and other content to the right */
+        align-items: center; /* Center items vertically */
+        padding: 20px; /* Add padding to the header */
+        background-color: #fff; /* Set the background color */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+      }
+
+      /* Logo container styles */
+      .logo-container {
+        width: 100px; /* Set the container width to match the logo width */
+        height: 100px; /* Set the container height to match the logo height */
+        margin-right: 20px; /* Add margin to the right of the logo container */
+      }
+    </style>
+  </body>
+</html>
